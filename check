@@ -1,294 +1,150 @@
-[
-  {
-    "id": 1,
-    "title": "Dryer Duct Material",
-    "trade": "HVAC",
-    "category": "Dryer Exhaust",
-    "edition": "2021",
-    "code": "IMC 2021 §504.4",
-    "status": "FAIL",
-    "risk": "HIGH",
-    "severityReason": "Improper dryer exhaust materials can increase fire risk by restricting airflow and allowing lint accumulation.",
-    "finding": "The dryer exhaust duct contains foil, plastic, or other non-compliant duct material.",
-    "whyInspectorsFlagIt": "Improper duct materials can trap lint, reduce airflow, and create a potential fire hazard.",
-    "fix": "Replace the non-compliant section with an approved smooth-wall metallic dryer exhaust duct.",
-    "avoidThisMistake": "Leaving a short section of foil duct hidden inside a wall or ceiling.",
-    "fieldTip": "Trace the full duct run before inspection—hidden sections are often missed.",
-    "inspectionChecklist": [
-      "Verify smooth-wall metallic duct",
-      "Inspect for foil or plastic",
-      "Check joints",
-      "Confirm no concealed transition duct",
-      "Verify exterior termination"
+{
+  "id": 1,
+  "referenceId": "RX-HVAC-0001",
+  "title": "Dryer Duct Material",
+  "trade": "HVAC",
+  "category": "Dryer Exhaust",
+  "edition": "2021",
+
+  "codeReference": {
+    "primaryCode": {
+      "code": "IMC 2021",
+      "chapter": "Chapter 5 - Exhaust Systems"
+    },
+    "verifiedSections": [
+      {
+        "section": "504.4",
+        "title": "Exhaust Installation",
+        "applicability": "Installation requirements for domestic clothes dryer exhaust systems."
+      },
+      {
+        "section": "504.9.1",
+        "title": "Material and Size",
+        "applicability": "Requirements for dryer exhaust duct material and sizing."
+      }
     ],
-    "verificationEvidence": [
-      "Photo of full duct run",
-      "Photo at dryer connection",
-      "Photo of exterior termination",
-      "Manufacturer installation instructions if required"
-    ],
-    "inspectorFocus": "Inspectors commonly examine visible duct material and termination points.",
-    "commonInspectorCorrection": "Replace non-compliant duct with approved metallic duct.",
-    "basis": "IMC 2021 §504.4 establishes material requirements.",
-    "relatedScenarios": [2, 3, 4],
-    "tags": ["dryer", "foil duct", "metal duct", "lint", "504.4"],
-    "verified": false,
-    "reviewStatus": "Editorial Approved",
-    "version": "2.0"
+    "verificationStatus": "Verified",
+    "verificationDate": "2026-07-16"
   },
-  {
-    "id": 2,
-    "title": "Dryer Maximum Length",
-    "trade": "HVAC",
-    "category": "Dryer Exhaust",
-    "edition": "2021",
-    "code": "IMC 2021 §504.6.1",
-    "status": "CHECK",
-    "risk": "MEDIUM",
-    "severityReason": "Excessive duct length reduces airflow and increases lint buildup.",
-    "finding": "The dryer exhaust duct may exceed allowed equivalent length.",
-    "whyInspectorsFlagIt": "Long duct runs reduce performance and create lint buildup.",
-    "fix": "Measure total equivalent length including fittings and verify compliance.",
-    "avoidThisMistake": "Ignoring elbows when calculating total length.",
-    "fieldTip": "Always count elbows before calling inspection.",
-    "inspectionChecklist": [
-      "Measure duct",
-      "Count elbows",
-      "Calculate equivalent length",
-      "Compare with manufacturer",
-      "Verify compliance"
-    ],
-    "verificationEvidence": [
-      "Measured duct length",
-      "Elbow count",
-      "Photos of duct routing",
-      "Manufacturer specs"
-    ],
-    "inspectorFocus": "Inspectors review duct routing and equivalent length.",
-    "commonInspectorCorrection": "Revise duct layout or provide documentation.",
-    "basis": "IMC 2021 §504.6.1 covers length limits.",
-    "relatedScenarios": [1, 3, 4],
-    "tags": ["dryer", "duct length", "elbows", "504.6.1"],
-    "verified": false,
-    "reviewStatus": "Editorial Approved",
-    "version": "2.0"
+
+  "authority": {
+    "codeRequired": true,
+    "manufacturerRequired": true,
+    "tradeOpsBestPractice": false
   },
-  {
-    "id": 3,
-    "title": "Dryer Termination Cap",
-    "trade": "HVAC",
-    "category": "Dryer Exhaust",
-    "edition": "2021",
-    "code": "IMC 2021 §504.6.2",
-    "status": "FAIL",
-    "risk": "HIGH",
-    "severityReason": "Improper termination can trap lint and restrict airflow.",
-    "finding": "Dryer exhaust uses a screened or non-compliant cap.",
-    "whyInspectorsFlagIt": "Screens trap lint and block airflow.",
-    "fix": "Install approved termination without screen.",
-    "avoidThisMistake": "Adding bird screens to dryer vents.",
-    "fieldTip": "Manually test damper flap before inspection.",
-    "inspectionChecklist": [
-      "Check termination",
-      "Verify no screen",
-      "Test flap",
-      "Check lint",
-      "Secure fitting"
+
+  "status": "FAIL",
+  "risk": "HIGH",
+
+  "severityReason": "Improper dryer exhaust materials can restrict airflow, increase lint accumulation, reduce dryer performance, and increase fire risk.",
+
+  "finding": "The dryer exhaust system contains materials that are not approved for permanent dryer exhaust duct installation, including prohibited plastic or non-listed materials.",
+
+  "whyInspectorsFlagIt": "Dryer exhaust ducts operate under conditions where lint accumulation and restricted airflow can create safety concerns. Approved materials help maintain proper exhaust performance.",
+
+  "fix": "Replace non-compliant sections with approved dryer exhaust duct materials installed according to the IMC and manufacturer installation instructions.",
+
+  "avoidThisMistake": "Do not conceal foil, plastic, or non-listed flexible materials inside walls, ceilings, or inaccessible areas.",
+
+  "fieldTip": "Inspect the complete exhaust route whenever accessible. Hidden material changes are common causes of failed inspections.",
+
+  "inspectionChecklist": [
+    "Verify approved duct material.",
+    "Inspect for plastic or non-listed duct.",
+    "Check duct condition.",
+    "Inspect connections.",
+    "Verify exterior termination."
+  ],
+
+  "verificationEvidence": {
+    "requiredPhotos": [
+      "Complete dryer exhaust route.",
+      "Dryer connection.",
+      "Exterior termination.",
+      "Accessible concealed sections."
     ],
-    "verificationEvidence": [
-      "Photo of termination",
-      "Flap operation test",
-      "No screen visible",
-      "Airflow during operation"
+    "requiredMeasurements": [
+      "Nominal duct diameter."
     ],
-    "inspectorFocus": "Inspectors verify unrestricted airflow at termination.",
-    "commonInspectorCorrection": "Replace with approved cap.",
-    "basis": "IMC 2021 §504.6.2 applies.",
-    "relatedScenarios": [1, 2, 4],
-    "tags": ["dryer", "termination", "lint", "504.6.2"],
-    "verified": false,
-    "reviewStatus": "Editorial Approved",
-    "version": "2.0"
+    "requiredDocuments": [
+      "Manufacturer installation instructions where applicable."
+    ]
   },
-  {
-    "id": 4,
-    "title": "Dryer Transition Duct",
-    "trade": "HVAC",
-    "category": "Dryer Exhaust",
-    "edition": "2021",
-    "code": "IMC 2021 §504.6.2",
-    "status": "CHECK",
-    "risk": "MEDIUM",
-    "severityReason": "Improper transition duct reduces airflow and complicates service.",
-    "finding": "Transition duct may be too long, unlisted, or concealed.",
-    "whyInspectorsFlagIt": "Transition ducts must remain accessible.",
-    "fix": "Verify listing, accessibility, and length.",
-    "avoidThisMistake": "Running flex duct inside walls.",
-    "fieldTip": "If it disappears into a wall, it’s wrong.",
-    "inspectionChecklist": [
-      "Verify listing",
-      "Check exposure",
-      "Measure length",
-      "Inspect connections",
-      "Confirm not concealed"
+
+  "inspectorFocus": "Inspectors verify duct material, installation method, accessible routing, and exterior termination compliance.",
+
+  "inspectorNotes": {
+    "commonFailures": [
+      "Plastic duct installed.",
+      "Foil duct concealed.",
+      "Damaged duct sections.",
+      "Improper connections."
     ],
-    "verificationEvidence": [
-      "Photo of duct",
-      "Proof of listing",
-      "Measured length",
-      "Connection points"
+    "passIndicators": [
+      "Approved metallic duct.",
+      "Properly installed joints.",
+      "No restricted sections.",
+      "Accessible verification points."
     ],
-    "inspectorFocus": "Inspectors check accessibility and installation.",
-    "commonInspectorCorrection": "Relocate or replace duct.",
-    "basis": "IMC 2021 §504.6.2 applies.",
-    "relatedScenarios": [1, 2, 3],
-    "tags": ["dryer", "transition duct", "UL2158A"],
-    "verified": false,
-    "reviewStatus": "Editorial Approved",
-    "version": "2.0"
+    "redFlags": [
+      "Lint buildup.",
+      "Collapsed duct.",
+      "Disconnected sections.",
+      "Non-listed materials."
+    ],
+    "AHJConsiderations": [
+      "Confirm local amendments adopted by the authority having jurisdiction."
+    ]
   },
-  {
-    "id": 5,
-    "title": "Bath Fan Termination",
-    "trade": "HVAC",
-    "category": "Bathroom Exhaust",
-    "edition": "2021",
-    "code": "IMC 2021 §501.2.1",
-    "status": "FAIL",
-    "risk": "HIGH",
-    "severityReason": "Moisture buildup leads to mold and structural damage.",
-    "finding": "Fan exhausts into attic or concealed space.",
-    "whyInspectorsFlagIt": "Moisture must discharge outdoors.",
-    "fix": "Route duct to exterior termination.",
-    "avoidThisMistake": "Dumping into attic.",
-    "fieldTip": "Turn fan on and verify exterior airflow.",
-    "inspectionChecklist": [
-      "Confirm outdoor termination",
-      "Inspect cap",
-      "Check sealing",
-      "Verify support",
-      "No attic discharge"
-    ],
-    "verificationEvidence": [
-      "Photo of exterior cap",
-      "Airflow test",
-      "Duct routing photo"
-    ],
-    "inspectorFocus": "Inspectors trace duct to termination.",
-    "commonInspectorCorrection": "Extend duct outdoors.",
-    "basis": "IMC 2021 §501.2.1 applies.",
-    "relatedScenarios": [6, 7, 8],
-    "tags": ["bath fan", "termination", "moisture"],
-    "verified": false,
-    "reviewStatus": "Editorial Approved",
-    "version": "2.0"
+
+  "commonInspectorCorrection": "Remove non-compliant duct materials and install approved dryer exhaust duct materials before final approval.",
+
+  "basis": "The IMC establishes requirements for dryer exhaust installation, including acceptable materials, installation methods, and compliance with manufacturer instructions.",
+
+  "relatedScenarios": [
+    2,
+    3,
+    4
+  ],
+
+  "tags": [
+    "dryer",
+    "dryer exhaust",
+    "metal duct",
+    "foil duct",
+    "lint",
+    "IMC 2021",
+    "504.4",
+    "504.9.1"
+  ],
+
+  "verification": {
+    "editorial": "Verified",
+    "codeCitation": "Verified",
+    "manufacturer": "Verified",
+    "fieldValidation": "Pending",
+    "goldCertification": "Pending Field Validation"
   },
-  {
-    "id": 6,
-    "title": "Backdraft Damper",
-    "trade": "HVAC",
-    "category": "Bathroom Exhaust",
-    "edition": "2021",
-    "code": "IMC 2021 §501.2",
-    "status": "CHECK",
-    "risk": "MEDIUM",
-    "severityReason": "Allows outside air and contaminants into the building.",
-    "finding": "Damper missing or not working.",
-    "whyInspectorsFlagIt": "Prevents reverse airflow.",
-    "fix": "Install or repair damper.",
-    "avoidThisMistake": "Assuming hood includes damper.",
-    "fieldTip": "Cycle fan to test damper.",
-    "inspectionChecklist": [
-      "Verify damper",
-      "Test operation",
-      "Check closure",
-      "Inspect debris",
-      "Confirm function"
-    ],
-    "verificationEvidence": [
-      "Photo of damper",
-      "Operation test",
-      "Open/close confirmation"
-    ],
-    "inspectorFocus": "Inspectors test damper operation.",
-    "commonInspectorCorrection": "Install/repair damper.",
-    "basis": "IMC 2021 §501.2 applies.",
-    "relatedScenarios": [5, 7, 8],
-    "tags": ["damper", "bath fan"],
-    "verified": false,
-    "reviewStatus": "Editorial Approved",
-    "version": "2.0"
-  },
-  {
-    "id": 7,
-    "title": "Bath Fan Airflow",
-    "trade": "HVAC",
-    "category": "Bathroom Exhaust",
-    "edition": "2021",
-    "code": "IMC 2021 §502.2",
-    "status": "CHECK",
-    "risk": "MEDIUM",
-    "severityReason": "Low airflow leads to moisture retention.",
-    "finding": "Fan airflow may be insufficient.",
-    "whyInspectorsFlagIt": "Must meet ventilation rate.",
-    "fix": "Verify CFM and replace if needed.",
-    "avoidThisMistake": "Not checking nameplate.",
-    "fieldTip": "Read label before inspection.",
-    "inspectionChecklist": [
-      "Check label",
-      "Verify CFM",
-      "Test operation",
-      "Inspect duct",
-      "Confirm airflow"
-    ],
-    "verificationEvidence": [
-      "Photo of nameplate",
-      "Airflow test",
-      "Fan operation"
-    ],
-    "inspectorFocus": "Inspectors verify fan rating.",
-    "commonInspectorCorrection": "Upgrade fan.",
-    "basis": "IMC 2021 §502.2 applies.",
-    "relatedScenarios": [5, 6, 8],
-    "tags": ["CFM", "bath fan"],
-    "verified": false,
-    "reviewStatus": "Editorial Approved",
-    "version": "2.0"
-  },
-  {
-    "id": 8,
-    "title": "Bath Fan Duct Size",
-    "trade": "HVAC",
-    "category": "Bathroom Exhaust",
-    "edition": "2021",
-    "code": "IMC 2021 §502.2",
-    "status": "CHECK",
-    "risk": "MEDIUM",
-    "severityReason": "Undersized duct reduces airflow.",
-    "finding": "Duct may be undersized.",
-    "whyInspectorsFlagIt": "Restricts airflow.",
-    "fix": "Match duct to manufacturer size.",
-    "avoidThisMistake": "Using smaller existing duct.",
-    "fieldTip": "Measure duct diameter.",
-    "inspectionChecklist": [
-      "Measure duct",
-      "Check fan model",
-      "Compare specs",
-      "Inspect restrictions",
-      "Verify airflow"
-    ],
-    "verificationEvidence": [
-      "Measured duct size",
-      "Photo of duct",
-      "Manufacturer spec"
-    ],
-    "inspectorFocus": "Inspectors verify duct size matches fan.",
-    "commonInspectorCorrection": "Replace duct.",
-    "basis": "IMC 2021 §502.2 applies.",
-    "relatedScenarios": [5, 6, 7],
-    "tags": ["duct size", "bath fan"],
-    "verified": false,
-    "reviewStatus": "Editorial Approved",
-    "version": "2.0"
-  }
-]
+
+  "reviewStatus": "Technical Verification Complete",
+
+  "revisionHistory": [
+    {
+      "version": "2.0",
+      "status": "Editorial Approved"
+    },
+    {
+      "version": "2.1",
+      "status": "Official Code Verification Completed",
+      "changes": [
+        "Structured code references.",
+        "Separated authority requirements.",
+        "Expanded inspector guidance.",
+        "Added verification evidence.",
+        "Improved field validation workflow."
+      ]
+    }
+  ],
+
+  "version": "2.1"
+}
