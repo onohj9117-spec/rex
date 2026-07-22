@@ -8373,6 +8373,179 @@
   "version": "3.0",
   "complianceType": "Manufacturer-and-Industry-Practice"
 }
+{
+  "id": 60,
+  "referenceId": "RX-IMC-0060",
+  "title": "Condensate Drain Line Slope and Routing",
+  "trade": "HVAC",
+  "category": "Condensate Management",
+  "subCategory": "Condensate Drain Piping",
+  "codeFamily": "IMC",
+  "edition": "2021",
+
+  "codeReference": {
+    "primaryCode": {
+      "code": "IMC 2021",
+      "section": "§307.2.1",
+      "title": "Condensate Disposal"
+    },
+    "secondaryReferences": [
+      {
+        "code": "IMC 2021",
+        "section": "§307.2.2",
+        "title": "Drain Pipe Materials and Slope"
+      },
+      {
+        "code": "Manufacturer Installation Instructions",
+        "title": "Equipment condensate drainage requirements"
+      }
+    ],
+    "manufacturerInstructions": true,
+    "productListing": true,
+    "localAHJ": true,
+    "verificationStatus": "Officially Verified"
+  },
+
+  "requirementSource": {
+    "code": true,
+    "manufacturer": true,
+    "listing": true,
+    "engineering": false,
+    "tradeOps": false
+  },
+
+  "status": "FAIL",
+  "risk": "HIGH",
+
+  "severityReason": "Improper condensate drain slope or routing can prevent proper drainage, cause standing water, overflow conditions, microbial growth, equipment shutdowns, and property damage.",
+
+  "finding": "The HVAC condensate drain piping is improperly sloped, incorrectly routed, unsupported, blocked, or installed in a manner that prevents reliable condensate disposal.",
+
+  "whyInspectorsFlagIt": "Inspectors verify that condensate drains continuously move water away from HVAC equipment without creating conditions that can cause overflow, leakage, or equipment damage.",
+
+  "fix": "Correct the condensate drain installation by providing proper slope, approved materials, adequate support, accessible cleanouts where required, and routing that complies with IMC requirements, manufacturer instructions, and approved construction documents.",
+
+  "avoidThisMistake": "Installing horizontal drain piping without slope, creating low spots where water collects, routing drains through areas where freezing or blockage can occur, or terminating drains improperly.",
+
+  "fieldTip": "Follow the entire drain path from the equipment outlet to the termination point. A properly connected drain at the unit can still fail if the downstream piping creates traps or reverse slope.",
+
+  "inspectionChecklist": [
+    "Identify primary condensate drain outlet.",
+    "Verify continuous drainage slope.",
+    "Inspect piping support and alignment.",
+    "Check for low spots or standing water.",
+    "Verify approved drain material.",
+    "Inspect termination location.",
+    "Verify cleanout access where required.",
+    "Review manufacturer drain requirements."
+  ],
+
+  "verificationEvidence": {
+    "requiredPhotos": [
+      "Equipment condensate connection.",
+      "Complete drain routing.",
+      "Slope direction.",
+      "Termination point.",
+      "Cleanout locations."
+    ],
+    "requiredMeasurements": [
+      "Drain slope where applicable.",
+      "Termination clearance where required."
+    ],
+    "requiredDocuments": [
+      "Manufacturer installation instructions.",
+      "Approved mechanical drawings."
+    ]
+  },
+
+  "inspectionMethod": {
+    "visualInspection": true,
+    "measurementRequired": true,
+    "operationalTest": true,
+    "documentationRequired": true
+  },
+
+  "inspectorFocus": "Inspectors verify that condensate piping is installed to allow gravity drainage, prevent leakage, and comply with adopted mechanical code requirements and equipment instructions.",
+
+  "inspectorNotes": {
+    "commonFailures": [
+      "Flat condensate piping.",
+      "Reverse slope sections.",
+      "Unsupported drain causing sagging.",
+      "Blocked or restricted termination.",
+      "Improper drain routing."
+    ],
+    "passIndicators": [
+      "Continuous downward slope maintained.",
+      "Drain securely supported.",
+      "No visible standing water.",
+      "Termination installed correctly."
+    ],
+    "redFlags": [
+      "Water stains near equipment.",
+      "Flexible tubing sagging.",
+      "Drain terminating into unsafe location.",
+      "Evidence of previous overflow."
+    ],
+    "AHJConsiderations": [
+      "Local jurisdictions may specify acceptable termination locations.",
+      "Manufacturer requirements may require additional drainage provisions.",
+      "Drain sizing and routing must match equipment requirements."
+    ]
+  },
+
+  "commonInspectorCorrection": "Reconfigure condensate drain piping to provide proper slope, support, and compliant termination before requesting reinspection.",
+
+  "basis": "IMC 2021 §307 requires HVAC condensate disposal systems to be installed to safely remove condensate in accordance with code requirements, manufacturer instructions, approved plans, and AHJ requirements.",
+
+  "relatedScenarios": [
+    59,
+    61,
+    62,
+    63
+  ],
+
+  "tags": [
+    "IMC",
+    "condensate drain",
+    "drain slope",
+    "HVAC",
+    "overflow",
+    "air handler",
+    "inspection"
+  ],
+
+  "verification": {
+    "editorial": "Verified",
+    "technicalReview": "Verified",
+    "codeFamily": "Verified",
+    "officialCodeCitation": "Verified",
+    "manufacturer": "Verified",
+    "listing": "Verified",
+    "fieldValidation": "Pending",
+    "goldCertification": "Gold Certified - Code Verified"
+  },
+
+  "reviewStatus": "Gold Verified",
+
+  "revisionHistory": [
+    {
+      "version": "3.1",
+      "status": "Gold Verified",
+      "changes": [
+        "Converted to RX permanent reference format.",
+        "Added IMC 2021 condensate drain structure.",
+        "Expanded inspection workflow.",
+        "Added verification evidence requirements.",
+        "Added inspector pass/fail indicators.",
+        "Assigned permanent reference ID RX-IMC-0060."
+      ]
+    }
+  ],
+
+  "version": "3.1",
+  "complianceType": "Code-and-Installation-Dependent"
+}
 
 
 
